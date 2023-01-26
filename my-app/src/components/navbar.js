@@ -1,6 +1,4 @@
-
-import styles from '../styles/navbar.module.css'
-
+import styles from "../styles/navbar.module.css";
 
 export default function Navbar() {
     return (
@@ -10,10 +8,9 @@ export default function Navbar() {
 <div className="menu-btn">
     <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
 </div>
-<ul>
-    
+<ul> 
     <li> <a href="#">Parceiros</a></li>
-    <li> <a href="#" class="active">COMECE AQUI</a></li>
+    <li> <a href="#" className="active">COMECE AQUI</a></li>
 </ul>
 </navbar>
 
